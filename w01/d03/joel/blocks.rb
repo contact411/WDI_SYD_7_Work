@@ -2,6 +2,15 @@ people = ["Jack", "Wolf", "Bilbo Baggins"]
 
 people.each {|person| puts person.upcase}
 
+<<<<<<< HEAD
+max_loop_number = people.length
+counter = 1
+
+while counter <= max_loop_number
+
+  counter += 1
+end
+=======
 #  or.... 
 
 max_loop_number = people.length
@@ -89,3 +98,4 @@ p splits
 
 
 
+>>>>>>> 3c083aa55008438d4a47eb3c5bd7697fcffeef31

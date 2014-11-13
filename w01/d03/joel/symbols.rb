@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+jack = {
+  "name" => "Jack Watson-Hamblin",
+  "age" => 21,
+  42 => "fake street"
+}
+
+puts jack[42]
+puts jack["age"]
+=======
 # jack = {
 #   "name" => "Jack Watson-Hamblin",
 #   "age" => 21,
@@ -19,3 +29,4 @@ end
 
 
   
+>>>>>>> 3c083aa55008438d4a47eb3c5bd7697fcffeef31
