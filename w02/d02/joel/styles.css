@@ -1,0 +1,15 @@
+h1 {
+  color: red;
+  font-family: Comic Sans MS, Helvetica, Arial, monospace;
+  font-weight: normal;
+  font-size: 44px;
+  /*font-style: italic;*/
+  /*text-decoration: underline;*/
+  background-image: url(http://placekitten.com/g/50/30);
+  /*background-color: green;*/
+  backgroud-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  text-align: center;
+}
+
