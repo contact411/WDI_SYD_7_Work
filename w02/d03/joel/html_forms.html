@@ -1,0 +1,58 @@
+<form action="/buy-product" method="POST">
+  <input type="hidden" name="_method" value="PUT">
+  <input type="text" name="price" value="12.95">
+  <input type="number" name="qty" value="3">
+  <input type="text" name="product_name" value="Samsung TV">
+  <input type="text" name="product_name" placeholder="Placeholders are gray!">
+  <input type="submit" value="Buy Now!">
+  <br>
+  <label for="email">Email:</label>
+  <input type="text" name="email" id="email" placeholder="info@example.com">
+  <br>
+  <input type="search" name="search_query">
+  <input type="color" name="green">
+  <input type="tel">
+
+
+  <input type="submit" value="Submit to me!">
+
+  <hr><br><br>
+
+
+
+  <label>Car features</label><br>
+  <input type="checkbox" id="power_locks"  name="car_features[]" value="power_locks">
+  <label>Power Locks</label><br>
+  <input type="checkbox" id="sunroof" name="car_features[]" value="sunroof">
+  <label>Sunroof</label><br>
+  <input type="checkbox" id="radio" name="car_features[]" value="radio">
+  <label>Radio</label><br>
+  <input type="checkbox" id="power_windows" name="car_features[]" value="power_windows">
+  <label>Power Windows</label><br>
+
+  <hr><br><br>
+
+  <label>Shirt size</label><br>
+  <input type="radio" id="extra-small" name="shirt_size" value="xs">
+  <label for="extra-small">XS</label><br>
+  <input type="radio" id="small" name="shirt_size" value="s">
+  <label for="small">S</label><br>
+  <input type="radio" id="medium" name="shirt_size" value="m">
+  <label for="medium">M</label><br>
+  <input type="radio" id="large" name="shirt_size" value="l">
+  <label for="large">L</label><br>
+  <input type="radio" id="extra-large" name="shirt_size" value="xl">
+  <label for="extra-large">XL</label><br>
+
+  <hr><br><br>
+
+  <label for="countries">Country</label>
+  <select id="countires" name="country">
+    <option value="AU">Australia</option>
+    <option value="SY">Syria</option>
+    <option value="US">'Murica</option>
+    <option value="UK">United Kingdom</option>
+  </select>
+  
+
+</form>

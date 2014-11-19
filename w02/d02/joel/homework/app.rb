@@ -36,7 +36,7 @@ get '/student_list' do
   erb :student_list, layout: :layout
 end
 
-gets '/student/:name' do
+get '/student/:name' do
    @student_name = params[:name]
    "#{student_name}"
 
