@@ -1,0 +1,52 @@
+body {
+  background: #DDEEF4;
+  margin: 20px 100px 1px;
+}
+
+h1 { font-family: 'Architects Daughter', cursive; 
+font-weight: 400;
+font-size: 40px; 
+}
+
+#site_name {;
+}
+
+#search {
+  float: right;
+}
+
+#title {
+  font-family: tahoma;
+  font-size: 90%;
+}
+
+#poster {
+  float: right;
+  padding-left: 45px;
+}
+
+#plot {
+  max-width: 400px;
+  font-family: tahoma;
+}
+
+#details {
+  font-size: 80%;
+  font-family: tahoma;
+}
+
+#movie_list {
+  line-height: .2;
+  font-family: tahoma;
+  font-size: 90%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #00000f;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #00000a;
+}
