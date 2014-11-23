@@ -3,3 +3,46 @@ font-weight: 400;
 font-size: 40px; 
 }
 
+body {background: #cccccc;
+}
+
+ul {
+  list-style: none;
+}
+#site_name {
+  border: 1px;
+  border-color: black;  
+  font-family: tahoma;
+  font-size: 90%;
+  margin-left: 70px;
+}
+
+
+#links {
+  font-family: tahoma;
+  font-size: 16px;
+  margin-left: 70px;  
+}
+
+#add_link {
+  font-family: tahoma;
+  font-size: 14px;
+  border: 2px solid;
+  box-shadow: 10px 10px 5px #888888;
+  width: 125px;
+  float: left;
+  margin: 30px 100px 0px 220px;
+  text-align: center;
+}
+
+#add_form {
+  border: 1px;
+  border-color: black;  
+  font-family: tahoma;
+  font-size:110%;
+  border: 2px solid;
+  box-shadow: 10px 10px 5px #888888;
+  width: 250px;
+  padding: 10px;
+  margin-left: 90px;
+}
