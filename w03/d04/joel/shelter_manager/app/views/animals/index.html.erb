@@ -1,0 +1,10 @@
+<p>Welcome to the Oakland Zoo!</p>
+
+<ul>
+  <% @animals.each do |animal| %>
+    <li>Name: <%= link_to animal.name, animal %></li>
+    <br>
+  <% end %>
+</ul>
+
+<a href="/animals/new">Add new Animal</a>
