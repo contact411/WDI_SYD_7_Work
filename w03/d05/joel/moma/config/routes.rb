@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  resources :artists, only: [:new, :create, :show, :edit, :list]
-
+  resources :artists, :paintings
+  
   root 'artists#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

@@ -15,5 +15,33 @@
  */
 
 body {
-  background: green;
+  background: #cccccc;
+  margin: 20px 100px 1px;
+}
+
+h1 { font-family: 'Architects Daughter', cursive; 
+font-weight: 400;
+font-size: 40px; 
+}
+
+#list {
+  font-family: tahoma;
+  font-size: 90%;
+  list-style-type: none;
+}
+
+#new_artist {
+  padding-left: 45px;
+}
+
+#info {
+  font-family: tahoma;
+  font-size: 90%;
+}
+
+#painting {
+  max-width: 50px;
+  font-family: tahoma;
+  font-size: 90%;
+  list-style-type: none;
 }
