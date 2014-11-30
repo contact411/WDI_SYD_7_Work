@@ -1,0 +1,15 @@
+<div id="list">
+  <% @artists.each do |artist| %>
+  <li>
+    <%= link_to artist.first_name + " " + artist.last_name, artist %>
+    
+    
+  </li>
+  <% end %>
+</div>
+<br>
+<br>
+
+<div id="new_artist">
+  <a href="/artists/new" >Create new artist</a>
+</div>

@@ -1,0 +1,16 @@
+<div id="info">
+<h2> Name:   <%= @artist.first_name + " " + @artist.last_name %> </h2>
+<h2> Born: <%= @artist.date_of_birth %> </h2>
+<h2> Nationality: <%= @artist.nationality %> </h2>
+<h3> <%= link_to "edit", edit_artist_path(@artist) %>  
+<%= link_to "delete", @artist, method: :delete %></h3>
+</div>
+
+<div id="painting">
+<h2>Paintings by the Artist</h2>
+    <ul><% @painting.each do |painting| %>
+      <li><%= link_to painting.title %></li>
+      <li><%= image_tag painting.image %></li>
+      <% end %>
+    </ul>
+</div>
